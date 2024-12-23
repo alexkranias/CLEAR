@@ -1,7 +1,7 @@
 <div align="center">
 
 # CLEAR
-<a href="https://arxiv.org/abs/2409.02097"><img src="https://img.shields.io/badge/arXiv-2412.xxxxx-A42C25.svg" alt="arXiv"></a> 
+<a href="https://arxiv.org/abs/2412.16112"><img src="https://img.shields.io/badge/arXiv-2412.16112-A42C25.svg" alt="arXiv"></a> 
 </div>
 
 
@@ -41,7 +41,7 @@ Our experiments indicate that, by fine-tuning the attention layer on merely 10K 
 * Clone this repo to your project directory:
 
   ``` bash
-  git clone https://github.com/Huage001/CLEAR
+  git clone https://github.com/Huage001/CLEAR.git
   ```
 
 ## Supported Models
@@ -122,7 +122,7 @@ If you finds this repo is helpful, please consider citing:
   title     = {CLEAR: Conv-Like Linearization Revs Pre-Trained Diffusion Transformers Up},
   author    = {Liu, Songhua and Tan, Zhenxiong and Wang, Xinchao},
   year      = {2024},
-  eprint    = {2412.xxxxx},
+  eprint    = {2412.16112},
   archivePrefix={arXiv},
   primaryClass={cs.CV}
 }
