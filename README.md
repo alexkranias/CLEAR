@@ -19,7 +19,7 @@
 
 ## 🔥News
 
-**[2024/12/20]** We release training and inference codes of CLEAR, a simple-yet-effectiveness strategy to linearize the complexity of pre-trained diffusion transformers, such as FLUX and SD3.
+**[2024/12/20]** We release training and inference codes of CLEAR, a simple-yet-effective strategy to linearize the complexity of pre-trained diffusion transformers, such as FLUX and SD3.
 
 ## Introduction
 
