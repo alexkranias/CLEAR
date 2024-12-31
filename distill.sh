@@ -20,7 +20,6 @@ accelerate launch --config_file deepspeed_config.yaml distill.py \
   --max_train_steps=50000 \
   --validation_epochs=1 \
   --seed="0" \
-  --real_prompt_ratio=0.1 \
   --checkpointing_steps=5000 \
   --use_cached_prompt_embed \
   --use_cached_latent \
