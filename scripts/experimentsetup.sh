@@ -12,5 +12,8 @@ conda activate super_resolution_experiment
 conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 pytorch-cuda=12.4 -c pytorch -c nvidia
 pip install -r requirements.txt
 
+export HF_HOME="/storage/scratch1/4/akranias3/.cache/huggingface"
+huggingface-cli login --token #INSERT TOKEN
+
 # Run experiement
-python experiement.py
+python experiment.py
