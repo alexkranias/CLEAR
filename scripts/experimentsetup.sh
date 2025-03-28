@@ -13,7 +13,7 @@ conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 pytorch-cuda=
 pip install -r requirements.txt
 
 export HF_HOME="/storage/scratch1/4/akranias3/.cache/huggingface"
-huggingface-cli login --token #INSERT TOKEN
+huggingface-cli login --token $(cat ./scripts/token.txt)
 
 # Run experiement
 python experiment.py
